@@ -1,6 +1,6 @@
-from pybaseball import statcast
-from pybaseball import statcast_batter
-from pybaseball import playerid_lookup
+from pybaseball.pybaseball import statcast
+from pybaseball.pybaseball import statcast_batter
+from pybaseball.pybaseball import playerid_lookup
 import pandas as pd
 
 playerid_lookup('bichette','bo')
